@@ -1,0 +1,21 @@
+zone_id,district,event_type,severity_index
+Z001,Pune,Flood,0.62
+Z002,Pune,Hailstorm,0.65
+Z003,Pune,Hailstorm,0.31
+Z004,Jalna,Hailstorm,0.95
+Z005,Nashik,Hailstorm,0.66
+Z006,Latur,Pest Attack,0.36
+Z007,Solapur,Drought,0.92
+Z008,Latur,Unseasonal Rain,0.78
+Z009,Solapur,Drought,0.99
+Z010,Sangli,Flood,0.83
+Z011,Nashik,Unseasonal Rain,0.69
+Z012,Latur,Pest Attack,0.86
+Z013,Sangli,Flood,0.59
+Z014,Jalna,Drought,0.41
+Z015,Sangli,Hailstorm,0.89
+Z016,Sangli,Unseasonal Rain,0.69
+Z017,Pune,Unseasonal Rain,0.98
+Z018,Jalna,Pest Attack,0.8
+Z019,Solapur,Hailstorm,0.42
+Z020,Satara,Drought,0.21

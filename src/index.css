@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   AgriGuard — Base Styles & Tailwind v4 Theme Configuration
+   Earthy enterprise palette: forest green, wheat amber, charcoal slate
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@theme {
+  /* ── Forest Green ── */
+  --color-forest-50: #EBF8F0;
+  --color-forest-100: #D5F0DF;
+  --color-forest-200: #A8E0BF;
+  --color-forest-300: #7ACA9B;
+  --color-forest-400: #4DAE78;
+  --color-forest-500: #2A8E58;
+  --color-forest-600: #227148;
+  --color-forest-700: #1A5438;
+  --color-forest-800: #123D29;
+  --color-forest-900: #0B2619;
+
+  /* ── Wheat Amber ── */
+  --color-wheat-50: #FCF6EC;
+  --color-wheat-100: #F8EDDA;
+  --color-wheat-200: #F0DBAC;
+  --color-wheat-300: #E8C47E;
+  --color-wheat-400: #E0AD50;
+  --color-wheat-500: #D69425;
+  --color-wheat-600: #B87E1F;
+  --color-wheat-700: #996819;
+  --color-wheat-800: #7A5213;
+  --color-wheat-900: #5C3D0E;
+
+  /* ── Charcoal Slate ── */
+  --color-slate-50: #F3F5F7;
+  --color-slate-100: #E1E6EB;
+  --color-slate-200: #C2CBD3;
+  --color-slate-300: #9EAAB4;
+  --color-slate-400: #7A8894;
+  --color-slate-500: #5A6774;
+  --color-slate-600: #414C58;
+  --color-slate-700: #343D47;
+  --color-slate-800: #272E36;
+  --color-slate-900: #1A1F25;
+  --color-slate-950: #0F1215;
+
+  /* ── Risk Tier Colors ── */
+  --color-risk-safe: #2A8E58;
+  --color-risk-safe-bg: #D5F0DF;
+  --color-risk-review: #D69425;
+  --color-risk-review-bg: #F8EDDA;
+  --color-risk-investigate: #C0392B;
+  --color-risk-investigate-bg: #FADBD8;
+
+  /* ── Pillar Colors ── */
+  --color-pillar-gnn: #2A8E58;
+  --color-pillar-nlp: #0984E3;
+  --color-pillar-cv: #E17055;
+
+  /* ── Surface ── */
+  --color-surface-primary: #F7F5F0;
+  --color-surface-secondary: #EFEDE7;
+  --color-surface-elevated: #FFFFFF;
+
+  /* ── Typography ── */
+  --font-sans: 'IBM Plex Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Space Grotesk', 'IBM Plex Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* ── Global Resets ── */
+html {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface-primary);
+  color: var(--color-slate-900);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* ── Scrollbar Styling (Webkit) ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-slate-300);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-slate-400);
+}

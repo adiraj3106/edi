@@ -1,0 +1,9 @@
+torch
+torch_geometric
+xgboost
+scikit-learn
+pandas
+numpy
+fastapi
+uvicorn
+pydantic
